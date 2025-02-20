@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 de fev. de 2025, 11:12:59
+    Author     : aln
+*/
+
+/* Estilos Gerais */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+}
+
+/* Cartão de Login e Cadastro */
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Títulos */
+h4 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0px 0px 8px rgba(37, 117, 252, 0.5);
+}
+
+/* Botões */
+.btn {
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #2575fc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1a5ed4;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Responsividade */
+@media (max-width: 400px) {
+    .card {
+        width: 90%;
+    }
+}
