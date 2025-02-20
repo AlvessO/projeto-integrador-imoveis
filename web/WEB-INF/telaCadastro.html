@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Usuário</title>
+    <title>Cadastro de Imóveis</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="d-flex justify-content-center align-items-center vh-100 bg-light">
 
     <div class="card p-4 shadow-lg" style="width: 350px;">
-        <h4 class="text-center">Cadastro de Usuário</h4>
+        <h4 class="text-center">Cadastro de Imóveis</h4>
         <form>
             <div class="mb-3">
-                <label for="nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                <label for="proprietario" class="form-label">Proprietário</label>
+                <input type="text" class="form-control" id="proprietario" placeholder="Nome do proprietário">
             </div>
             <div class="mb-3">
-                <label for="senha" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                <label for="tipoImovel" class="form-label">Tipo de Imóvel</label>
+                <select class="form-control" id="tipoImovel">
+                    <option value="casa">Casa</option>
+                    <option value="apartamento">Apartamento</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="valor" class="form-label">Valor do Imóvel (R$)</label>
+                <input type="number" class="form-control" id="valor" placeholder="Ex: 250000">
             </div>
             <button type="submit" class="btn btn-primary w-100">Salvar</button>
         </form>
