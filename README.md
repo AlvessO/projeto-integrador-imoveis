@@ -33,3 +33,7 @@ Funcionalidades do Sistema (Requisitos)
     Listagem de Imóveis Vendidos: 
     Interface Gráfica:
     Backup de Dados: 
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 6924209 ( readme)
